@@ -1,15 +1,14 @@
 #!/usr/bin/env sh
 commitMessage="Hey There"
-currentBranch="UC1HeyThere"
-echo ---------------git status-------------------
-echo 
+echo --------git status---------
+echo
 git status
-echo ---------------git add *---------------------
-echo 
+echo ---------git add *--------------
+echo
 git add *
-echo ---------------git commit -m $commitMessage---
-echo 
+echo ------------git commit -m $commitMessage-----------------
+echo
 git commit -m "$commitMessage"
-echo ---------------git push $currentBranch---
-echo 
-git push $currentBranch
+echo ------------git push-------------------
+echo
+git push -u origin master

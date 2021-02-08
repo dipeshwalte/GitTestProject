@@ -11,4 +11,4 @@ echo
 git commit -m "$commitMessage"
 echo ------------git push----------------
 echo
-git push master
+git push -u origin master

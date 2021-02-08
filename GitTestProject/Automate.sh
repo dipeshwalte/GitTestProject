@@ -12,4 +12,4 @@ echo
 git commit -m "$commitMessage"
 echo ---------------git push -m $commitMessage---
 echo 
-git push remote $currentBranch
+git push origin $currentBranch

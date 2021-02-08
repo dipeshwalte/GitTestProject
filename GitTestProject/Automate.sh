@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
+commitMessage="Hey There"
+echo git status
 git status
+echo git add *
 git add *
-git commit -m "Hey There"
+echo git commit -m $commitMessage
+git commit -m "$commitMessage"

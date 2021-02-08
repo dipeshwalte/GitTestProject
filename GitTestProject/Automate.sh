@@ -10,6 +10,6 @@ git add *
 echo ---------------git commit -m $commitMessage---
 echo 
 git commit -m "$commitMessage"
-echo ---------------git push -m $commitMessage---
+echo ---------------git push $currentBranch---
 echo 
-git push origin $currentBranch
+git push $currentBranch
